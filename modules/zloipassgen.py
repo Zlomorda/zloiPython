@@ -4,6 +4,7 @@ from string import ascii_lowercase as lower
 from string import ascii_uppercase as upper
 from string import punctuation as punct
 
+
 # Zloi (and Evil) Password Generator v. 1.0
 # Can generate high, medium and low level passwords based on user desired lenght.
 # For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.'''
