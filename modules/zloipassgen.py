@@ -10,11 +10,12 @@ from string import punctuation as punct
 # For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.'''
 
 def passHigh(len):
-    '''Generate high level password.
-    Includes all available punctuations, numbers (0-9), lower and upper case characters.
-    Based on user desired lenght.
-    Example: 3$lbn*B<-IMr7B0
-    For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.'''
+    ''' Generate high level password.
+        Includes all available punctuations, numbers (0-9), lower and upper case characters.
+        Based on user desired lenght.
+        Example: 3$lbn*B<-IMr7B0
+        For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.
+    '''
 
     lis = []
     i = 0
@@ -39,11 +40,12 @@ def passHigh(len):
     return lis
 
 def passMed(len):
-    '''Generate medium level password.
-    Includes only numbers (0-9), lower and upper case characters.
-    Based on user desired lenght.
-    Example: scc5Qf2W2K70cYD
-    For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.'''
+    ''' Generate medium level password.
+        Includes only numbers (0-9), lower and upper case characters.
+        Based on user desired lenght.
+        Example: scc5Qf2W2K70cYD
+        For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.
+    '''
 
     lis = []
     i = 0
@@ -64,11 +66,12 @@ def passMed(len):
     return lis
     
 def passLow(len):
-    '''Generate low level password.
-    Includes only numbers (0-9).
-    Based on user desired lenght.
-    Example: 800875488517709
-    For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.'''
+    ''' Generate low level password.
+        Includes only numbers (0-9).
+        Based on user desired lenght.
+        Example: 800875488517709
+        For correct view use print("".join(passLow(USER_ENTERED_LEN))) command.
+    '''
     
     lis = []
     x = 1
